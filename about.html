@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+    * {
+      font-family: "Roboto", sans-serif;
+      width: 100%;
+    }
+
+    .About-page {
+      position: relative;
+      background: #081b29;
+      opacity: 0;
+      animation: slideaa 2s ease forwards;
+
+      width: 80%;
+      height: 500px;
+      margin: 0 auto;
+      color: aliceblue;
+      font-size: 20px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    .About-page pre {
+      position: absolute;
+      margin: 0;
+      font-size: 20px;
+      width: 90%;
+      height: 100%;
+      color: rgb(195, 191, 191);
+    }
+
+    @media (max-width: 575.98px) {
+      .About-page {
+        width: 89%;
+        height: 460px;
+
+        border: 5px solid blue;
+      }
+      .About-page pre {
+        margin: 0;
+        font-size: 13.5px;
+        font-weight: 5rem;
+        color: rgb(158, 158, 158);
+      }
+    }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      .About-page {
+        width: 90%;
+        height: 100%;
+        font-size: 100%;
+        border: 5px solid blue;
+      }
+    }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .About-page {
+        width: 90%;
+        height: 100%;
+        font-size: 100%;
+        border: 5px solid blue;
+      }
+    }
+
+    @keyframes slideaa {
+      0% {
+        transform: translateY(-200px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  </style>
+  <body>
+    <div class="About-page">
+      <pre>
+CURRICULUM VITEA
+Name : VOAN RAVUT
+Address : Sangkat Terk Thala, Khan Sen Sok, Phnom Penh
+Tell : 069-398-172
+Email :ravut5687@gmail.com
+PERSONAL DATA
+Sex : Male
+Date of birth : 28-January-2005
+Place of birth : Tapang village, Sen Sok commune, Kralanh district, 
+Siem Reap province.
+Marital status : Single
+Nationality : Cambodian/Khmer
+EDUCATION
+2024-Present : Studying Computer Science at Royal University of
+ Phnom Penh
+2012-2017 : Graduated from Selaromduol primary school
+2018-2022 : Completed from Sen Sok secondary school
+2022-2023 : Graduated from 28 Makara secondary school
+LANGUAGE
+Khmer : Mother Tongue
+English : Medium
+</pre
+      >
+    </div>
+  </body>
+</html>
